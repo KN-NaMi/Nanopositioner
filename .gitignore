@@ -1,2 +1,7 @@
 .DS_Store
-pcb/amplifier/amplifier-backups
+/electronics/pcb/amplifier/amplifier-backups
+
+/software/app/__pycache__/
+/software/app/NaMi protocol/.venv/
+/software/firmware/STM32 DAC/Debug/
+/software/firmware/STM32 DAC/.settings/
