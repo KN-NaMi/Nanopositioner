@@ -255,7 +255,7 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 121.92) (xy 134.62 115.57)
+			(xy 128.27 120.65) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0.381)
@@ -339,7 +339,7 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 121.92) (xy 128.27 163.83)
+			(xy 128.27 120.65) (xy 128.27 163.83)
 		)
 		(stroke
 			(width 0.381)
@@ -378,16 +378,6 @@
 			(type default)
 		)
 		(uuid "f3851542-b9ea-4ca7-956b-bf1e25e93939")
-	)
-	(label ""
-		(at 129.54 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3664ceb6-77a9-4920-a65e-65df20b8d0a4")
 	)
 	(sheet
 		(at 110.49 35.56)

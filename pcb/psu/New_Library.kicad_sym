@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_SMD:Transformer_Wurth_WE-AGDT-EP7"
+		(property "Footprint" "Library:750313445"
 			(at 0 0 0)
 			(effects
 				(font
@@ -515,7 +515,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name ""
@@ -533,7 +533,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name ""
@@ -551,7 +551,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 16.51 -5.08 180)
 				(length 2.54)
 				(name ""
@@ -569,7 +569,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 16.51 -20.32 180)
 				(length 2.54)
 				(name ""
@@ -587,7 +587,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 19.05 -7.62 180)
 				(length 2.54)
 				(name ""
@@ -605,7 +605,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 19.05 -17.78 180)
 				(length 2.54)
 				(name ""
