@@ -1,0 +1,65 @@
+ 	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Footprint	Datasheet
+C1,C2	2	220u				Capacitor_THT:CP_Radial_D8.0mm_P3.50mm	~
+C3,C5,C6,C7,C8,C12,C13,C14,C15,C20,C22,C24	12	10u				Capacitor_SMD:C_0805_2012Metric	~
+C4,C9,C16,C17,C26,C27	6	1u				Capacitor_SMD:C_0805_2012Metric	~
+C10,C11	2	10n				Capacitor_SMD:C_0805_2012Metric	~
+C18,C19	2	1n				Capacitor_SMD:C_0805_2012Metric	~
+C21,C23,C25	3	10u				Capacitor_SMD:C_1210_3225Metric	~
+D1	1	Z1SMA27				Diode_SMD:D_SMA	https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf
+D2	1	Z1SMA5.6				Diode_SMD:D_SMA	https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf
+D3,D4,D5,D16,D17,D23,D24	7	LED				LED_SMD:LED_0603_1608Metric	~
+D6,D7	2	Z1SMA16				Diode_SMD:D_SMA	https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf
+D8,D10,D18,D19,D20	5	Z1SMA39				Diode_SMD:D_SMA	https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf
+D9,D11,D21,D22	4	Z1SMA15				Diode_SMD:D_SMA	https://diotec.com/tl_files/diotec/files/pdf/datasheets/z1sma1.pdf
+D12,D13,D14,D15	4	V8PM10S				Package_TO_SOT_SMD:TO-277A	https://www.vishay.com/docs/94987/vs-6esu06hm3.pdf
+F1	1	SBF32252ASTP				Fuse:Fuse_1206_3216Metric	~
+FB1,FB2	2	SPB0705-R12M				Inductor_SMD:L_Coilcraft_1515SQ-68N	~
+H1,H2,H3,H4	4	MountingHole		Wyklucz z BOM		MountingHole:MountingHole_4.3mm_M4_ISO14580	~
+J1,J2,J3,J4,J5,J6,J7,J8	8	Conn_01x02_Socket				Connector_Wago:Wago_734-132_1x02_P3.50mm_Vertical	~
+JP1,JP4,JP5,JP6,JP7,JP13	6	SolderJumper_2_Bridged		Wyklucz z BOM		Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm	~
+JP2	1	SolderJumper_2_Open		Wyklucz z BOM		Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm	~
+JP3	1	Jumper_2_Bridged				Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal	~
+JP8	1	Jumper_2_Bridged				Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal	~
+JP9,JP10,JP11,JP12	4	SolderJumper_2_Open		Wyklucz z BOM		Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm	~
+L1,L2,L3	3	68uH (74404054680)				Inductor_SMD:L_Wuerth_MAPI-5030	~
+R1	1	500R				Resistor_SMD:R_0805_2012Metric	~
+R2,R5	2	1.15M				Resistor_SMD:R_0805_2012Metric	~
+R3,R4	2	100k				Resistor_SMD:R_0805_2012Metric	~
+R6,R7,R20,R21,R28,R29	6	1k				Resistor_SMD:R_0805_2012Metric	~
+R8,R10	2	680k				Resistor_SMD:R_0805_2012Metric	~
+R9,R11	2	48k				Resistor_SMD:R_0805_2012Metric	~
+R12,R13	2	115k				Resistor_SMD:R_0805_2012Metric	~
+R14,R17	2	39R				Resistor_SMD:R_2512_6332Metric	~
+R15	1	149k				Resistor_SMD:R_0805_2012Metric	~
+R16,R19,R22,R23	4	10k				Resistor_SMD:R_0805_2012Metric	~
+R18	1	150k				Resistor_SMD:R_0805_2012Metric	~
+R24,R25,R26,R27	4	500R				Resistor_SMD:R_2512_6332Metric	~
+TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13	13	TestPoint				TestPoint:TestPoint_Pad_D1.5mm	~
+TR1,TR2	2	750313445				Library:750313445	
+U1	1	ADLP16000B				Library:ADPL16000footprint	
+U2	1	LTC3260xDE				Package_DFN_QFN:DFN-14-1EP_3x4mm_P0.5mm_EP1.7x3.3mm	https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3260.pdf
+U3,U4	2	ADPL54203				Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm_ThermalVias	https://www.analog.com/media/en/technical-documentation/data-sheets/adpl54203.pdf
+							
+							
+							
+							
+							
+							
+							
+part number	Qty	Digikey link					
+ADLP16000B	1	https://www.digikey.pl/pl/products/detail/analog-devices-inc/ADPL16000BATA-T/24614701?s=N4IgTCBcDaIIIBEAOAbAjANgAw4EIgF0BfIA					
+750313445	2	https://www.digikey.pl/pl/products/detail/w%C3%BCrth-elektronik/750313445/4959505?s=N4IgTCBcDaIOwFYAMBmAjCgLJhIC6AvkA					
+ADPL54203	2	https://www.digikey.pl/pl/products/detail/analog-devices-inc/ADPL54203ES8E-PBF/22462723					
+LTC3260xDE	1	https://www.digikey.pl/pl/products/detail/analog-devices-inc/LTC3260EDE-PBF/3198248					
+74404054680	3	https://www.digikey.pl/pl/products/detail/w%C3%BCrth-elektronik/74404054680/4865670?s=N4IgTCBcDaIOwBYEAYUFYEDYAcyQF0BfIA					
+connectors	8	https://www.digikey.pl/pl/products/detail/molex/0395011002/1280602?s=N4IgTCBcDaIOoFkDsSCsBGAtAOQCIgF0BfIA					
+SPB0705-R12M	2	https://www.digikey.pl/pl/products/detail/bourns-inc/SPB0705-R12M/16889803?s=N4IgTCBcDaIMoAUBCAGA7CgrAWgEoEYwBZEAXQF8g					
+SBF32252ASTP	1	https://www.digikey.pl/pl/products/detail/kamaya-inc/SBF32252ASTP/15181320?s=N4IgTCBcDaIMoCEBiBmMYCsYCCcAqACiALoC%2BQA					
+V8PM10S	4	https://www.digikey.pl/pl/products/detail/vishay-general-semiconductor-diodes-division/V8PM10SHM3-I/7427122					
+C (10u/100V)	3	https://www.digikey.pl/pl/products/detail/murata-electronics/GRM32EC72A106ME05L/16033383					
+Z1SMA5.6	1	https://www.digikey.pl/en/products/detail/diotec-semiconductor/Z1SMA5-6/22193074?s=N4IgTCBcDaIF4EYDOBbAhgVgHQDYQF0BfIA					
+Z1SMA15	4	https://www.digikey.pl/en/products/detail/diotec-semiconductor/Z1SMA15/13156712					
+Z1SMA16	2	https://www.digikey.pl/en/products/detail/dcomponents/Z1SMA16/13565593					
+Z1SMA27	1	https://www.digikey.pl/en/products/detail/diotec-semiconductor/Z1SMA27/22190412?s=N4IgTCBcDaIF4EYDOBbAhmA7CAugXyA					
+Z1SMA39	5	https://www.digikey.pl/en/products/detail/diotec-semiconductor/Z1SMA39/22192449?s=N4IgTCBcDaIF4EYDOBbAhgZgJwgLoF8g					
+220u electrolitic 	2	https://www.digikey.pl/en/products/detail/w%C3%BCrth-elektronik/860010574011/5726982					

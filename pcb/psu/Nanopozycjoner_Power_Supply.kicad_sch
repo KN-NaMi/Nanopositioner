@@ -94,7 +94,7 @@
 		)
 		(uuid "3c3278c3-ad92-4ebe-8a71-c85a3437fe14")
 	)
-	(text "LINEAR\nREGs"
+	(text "ADPL16000\n"
 		(exclude_from_sim no)
 		(at 131.318 48.006 0)
 		(effects

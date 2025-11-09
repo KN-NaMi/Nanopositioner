@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,8 +51,43 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|34802000|22314000|8a26341d-5e81-4b2d-a1e9-341098cec986|5f2a538f-e1ad-42e5-b1a4-7a395f9d2b2d",
+          ""
+        ],
+        [
+          "clearance|35056000|14694000|790baed1-3e9c-4026-80da-75199b014aef|e5c9385c-903b-404f-a7a5-eda4248e9b97",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|34412000|54639500|098f6eaf-d3b5-4c06-958c-b548d185a9bc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|46482000|73152000|442d745e-585e-485a-b46b-4064b3963293|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|59244000|53423500|106f17c8-3b68-4723-9839-4bb5a67b2f94|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|66040000|24384000|b4e9e19b-6c1b-4e28-ab70-83be51b99c7d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|35786000|63246000|0ea74f46-e286-4df5-b5a6-f231a29447d8|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -118,7 +153,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -131,9 +166,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -181,7 +216,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -208,8 +249,13 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -227,12 +273,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|558800|838200|e57b8b2f-1bd4-48ef-b9d3-0fc5667bdd07|495f30c2-8cf1-482d-a512-3801609ea8ba|/41f68583-7750-4b74-a26b-68c1e6d5dd9b/a7377b71-b9d5-4958-ab1c-d9a8426505e1|/41f68583-7750-4b74-a26b-68c1e6d5dd9b/a7377b71-b9d5-4958-ab1c-d9a8426505e1|/41f68583-7750-4b74-a26b-68c1e6d5dd9b/a7377b71-b9d5-4958-ab1c-d9a8426505e1",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -480,13 +521,100 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.5,
+        "name": "power_sec",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+15V_pri": [
+        "power"
+      ],
+      "+15V_sec": [
+        "power"
+      ],
+      "+24V": [
+        "power"
+      ],
+      "+5V": [
+        "power"
+      ],
+      "+60V": [
+        "power_sec"
+      ],
+      "-15V_pri": [
+        "power"
+      ],
+      "-15V_sec": [
+        "power"
+      ],
+      "-30V": [
+        "power"
+      ],
+      "/+60V_-30V_sec/+L": [
+        "power_sec"
+      ],
+      "/+60V_-30V_sec/-L": [
+        "power"
+      ],
+      "/+60V_-30V_sec/SW": [
+        "power"
+      ],
+      "/+60V_-30V_sec/SW'": [
+        "power"
+      ],
+      "/+60V_-30V_sec/sec1": [
+        "power_sec"
+      ],
+      "/+60V_-30V_sec/sec2": [
+        "power"
+      ],
+      "/5V/fuse": [
+        "power"
+      ],
+      "GND": [
+        "power"
+      ],
+      "GNDs": [
+        "power"
+      ],
+      "Net-(D17-K)": [
+        "power_sec"
+      ],
+      "Net-(JP10-A)": [
+        "power_sec"
+      ],
+      "Net-(JP11-A)": [
+        "power"
+      ],
+      "Net-(TR1-Pad6)": [
+        "power_sec"
+      ],
+      "Net-(U1-LX)": [
+        "power"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -567,14 +695,32 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Opis",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Oznaczenie"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
