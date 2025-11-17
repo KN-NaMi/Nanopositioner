@@ -495,7 +495,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Nanopozycjoner_Power_Supply.kicad_pro",
+    "filename": "psu.kicad_pro",
     "version": 3
   },
   "net_settings": {

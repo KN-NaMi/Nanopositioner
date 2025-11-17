@@ -32953,6 +32953,58 @@
 		)
 	)
 	(table
+		(column_count 1)
+		(layer "B.SilkS")
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+		)
+		(column_widths 12.446)
+		(row_heights 3.048 3.048)
+		(cells
+			(table_cell "INPUT"
+				(start 19.685 7.112)
+				(end 32.131 10.16)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "B.SilkS")
+				(uuid "a93610ff-4d47-4cb3-aa10-2e7f86653164")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left mirror)
+				)
+			)
+			(table_cell "24V"
+				(start 19.685 10.16)
+				(end 32.131 13.208)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "B.SilkS")
+				(uuid "76617c9d-6b56-4325-a343-e9cdc15ae6e2")
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left mirror)
+				)
+			)
+		)
+	)
+	(table
 		(column_count 2)
 		(layer "B.SilkS")
 		(border
@@ -33191,58 +33243,6 @@
 				(span 1 1)
 				(layer "B.SilkS")
 				(uuid "151f8c87-5a96-47cd-842f-5742852387e6")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left mirror)
-				)
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(layer "B.SilkS")
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-		)
-		(column_widths 12.446)
-		(row_heights 3.048 3.048)
-		(cells
-			(table_cell "INPUT"
-				(start 19.685 7.112)
-				(end 32.131 10.16)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "B.SilkS")
-				(uuid "a93610ff-4d47-4cb3-aa10-2e7f86653164")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left mirror)
-				)
-			)
-			(table_cell "24V"
-				(start 19.685 10.16)
-				(end 32.131 13.208)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "B.SilkS")
-				(uuid "76617c9d-6b56-4325-a343-e9cdc15ae6e2")
 				(effects
 					(font
 						(size 1.27 1.27)
