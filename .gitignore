@@ -1,2 +1,5 @@
 .DS_Store
-pcb/amplifier/amplifier-backups
+
+# KiCad
+*-backups/
+*.lck

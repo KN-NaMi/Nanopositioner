@@ -1,0 +1,519 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "41f68583-7750-4b74-a26b-68c1e6d5dd9b")
+	(paper "A4")
+	(title_block
+		(title "MANIP_PSU")
+		(date "2025-10-25")
+		(rev "1.0")
+		(company "KN_NAMI - JS")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 169.545 124.46)
+		(end 203.835 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d778a15-0f2c-4a52-9300-b43b80cd79ce)
+	)
+	(rectangle
+		(start 168.91 77.47)
+		(end 204.47 104.14)
+		(stroke
+			(width 0.2286)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 48e02e61-036e-4724-ad8b-e9bf0fee709e)
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 185.166 48.514 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "114538b9-5592-4bf7-a8b4-0b3d1b534b42")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 165.1 46.228 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1bd45cea-d630-402d-af11-ff892b9ace1a")
+	)
+	(text "+60V_-30V_out"
+		(exclude_from_sim no)
+		(at 199.136 143.002 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1d53737f-6716-4524-876a-69a55553eec1")
+	)
+	(text "flyback X2 (ADLP54203)"
+		(exclude_from_sim no)
+		(at 128.778 137.414 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.2699)
+			)
+		)
+		(uuid "2056ddb1-fa53-4dc2-a88a-1816cc83db62")
+	)
+	(text "24V"
+		(exclude_from_sim no)
+		(at 59.182 48.514 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "3c3278c3-ad92-4ebe-8a71-c85a3437fe14")
+	)
+	(text "ADPL16000\n"
+		(exclude_from_sim no)
+		(at 131.318 48.006 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4541f318-b652-4544-977b-3e62b60d851a")
+	)
+	(text "GALVANIC ISOLATON"
+		(exclude_from_sim no)
+		(at 155.956 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 11 0 1)
+			)
+		)
+		(uuid "b3cd44cf-20dd-40e5-b5bc-6ade89c59b8a")
+	)
+	(text "+-15V_sec"
+		(exclude_from_sim no)
+		(at 193.548 114.554 90)
+		(effects
+			(font
+				(size 1.651 1.651)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b88af748-c6f9-4198-ae7d-f08df12ffa8e")
+	)
+	(text "+/-15V"
+		(exclude_from_sim no)
+		(at 160.528 88.392 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+			)
+		)
+		(uuid "c3fec74c-5db2-48b0-93f5-9113d333d44e")
+	)
+	(text "Charge pump\n (lt3260)"
+		(exclude_from_sim no)
+		(at 129.032 90.424 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.3493)
+			)
+		)
+		(uuid "c5fa6c2e-7aec-4a3a-a5bd-04f849778af6")
+	)
+	(text "15V zener"
+		(exclude_from_sim no)
+		(at 186.944 129.794 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ca1d1947-eea9-4393-9315-411d5ae5e1b6")
+	)
+	(text "Opto-coupler"
+		(exclude_from_sim no)
+		(at 187.452 90.17 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cbd9c6ee-68d2-4256-852d-d2644aef07a5")
+	)
+	(junction
+		(at 87.63 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54c69d9c-374e-4771-82ec-ddbcacd5b58f")
+	)
+	(junction
+		(at 184.15 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d259de2f-9b83-4a78-8080-57f7b6c9dd2f")
+	)
+	(junction
+		(at 87.63 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e58a21bb-bdf9-4211-8abb-92466a8c0ba9")
+	)
+	(bus
+		(pts
+			(xy 184.15 146.05) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1693550e-2fb2-4841-8c6f-ac31d95bc08a")
+	)
+	(bus
+		(pts
+			(xy 87.63 90.17) (xy 87.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f8d041-b36a-4c81-99bc-32d5fd955886")
+	)
+	(bus
+		(pts
+			(xy 147.32 146.05) (xy 184.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4047dee1-c187-48b9-8bb9-53a7981a6bb9")
+	)
+	(bus
+		(pts
+			(xy 87.63 48.26) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e57a315-b92a-4806-8427-4738be255f8f")
+	)
+	(bus
+		(pts
+			(xy 151.13 48.26) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1de591-d476-454a-91a6-79d4bc3dc9e1")
+	)
+	(bus
+		(pts
+			(xy 87.63 48.26) (xy 87.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616bed63-e605-4522-9957-f7af39e32443")
+	)
+	(polyline
+		(pts
+			(xy 128.27 120.65) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 255 0 7 1)
+		)
+		(uuid "6395f2a0-188b-480b-86e1-7625d90ef91b")
+	)
+	(polyline
+		(pts
+			(xy 135.89 114.3) (xy 173.99 114.3)
+		)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 255 0 7 1)
+		)
+		(uuid "6945f8c9-83ce-4d66-b2fc-fbbb927e7939")
+	)
+	(bus
+		(pts
+			(xy 195.58 104.14) (xy 195.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e7bc5b-d1bb-41f1-a6dc-3c6dd1bb38b4")
+	)
+	(polyline
+		(pts
+			(xy 177.8 114.3) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 255 0 7 1)
+		)
+		(uuid "813b5a01-62a4-4f74-b676-539b664629b9")
+	)
+	(polyline
+		(pts
+			(xy 185.42 73.66) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 255 0 7 1)
+		)
+		(uuid "998c807f-fdaa-4c52-97d3-280f7e2f05c6")
+	)
+	(bus
+		(pts
+			(xy 151.13 90.17) (xy 168.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f39d5b2-9b6c-4747-9784-c26fca1e63d9")
+	)
+	(bus
+		(pts
+			(xy 67.31 48.26) (xy 87.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac794f2f-7a38-4bc6-bdce-f397f90d87e2")
+	)
+	(bus
+		(pts
+			(xy 87.63 138.43) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6bc101-ff6f-4ad5-ad74-a650f2cfdc62")
+	)
+	(polyline
+		(pts
+			(xy 128.27 120.65) (xy 128.27 163.83)
+		)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 255 0 7 1)
+		)
+		(uuid "dab98a65-1dc0-4f12-bbc0-4afc5c697387")
+	)
+	(bus
+		(pts
+			(xy 87.63 90.17) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0b7c05-2877-40d7-a7f9-f354419e1c0a")
+	)
+	(polyline
+		(pts
+			(xy 173.99 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0.381)
+			(type dash)
+			(color 255 0 7 1)
+		)
+		(uuid "df20d823-d427-4e8f-998f-3d33808293d8")
+	)
+	(bus
+		(pts
+			(xy 184.15 134.62) (xy 184.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3851542-b9ea-4ca7-956b-bf1e25e93939")
+	)
+	(sheet
+		(at 110.49 35.56)
+		(size 40.64 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0f9a020-68df-4158-8263-f65972a64eca")
+		(property "Sheetname" "5V"
+			(at 110.236 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V.kicad_sch"
+			(at 110.49 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nanopozycjoner_Power_Supply"
+				(path "/41f68583-7750-4b74-a26b-68c1e6d5dd9b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 124.46)
+		(size 38.1 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7377b71-b9d5-4958-ab1c-d9a8426505e1")
+		(property "Sheetname" "+60V_-30V_sec"
+			(at 108.712 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "+60V_-30V_sec.kicad_sch"
+			(at 109.22 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Nanopozycjoner_Power_Supply"
+				(path "/41f68583-7750-4b74-a26b-68c1e6d5dd9b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 77.47)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba82f417-cd94-4294-a988-f461f1e7f3c2")
+		(property "Sheetname" "+-15V_pri"
+			(at 108.458 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "+-15V_pri.kicad_sch"
+			(at 109.22 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nanopozycjoner_Power_Supply"
+				(path "/41f68583-7750-4b74-a26b-68c1e6d5dd9b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
