@@ -1,0 +1,17 @@
+LTspice 26.0.1 for Windows
+Circuit: Z:\Users\jakub\NaMi\projects\Nanopositioner\electronics\amplifier\simulation\amplifier.net
+Start Time: Wed Mar 11 23:11:50 2026
+solver = Normal
+Maximum thread count: 11
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 1.044 seconds.
+
+Files loaded:
+Z:\Users\jakub\NaMi\projects\Nanopositioner\electronics\amplifier\simulation\amplifier.net
+Z:\Users\jakub\NaMi\projects\Nanopositioner\electronics\amplifier\simulation\library\IL300.lib
+Z:\Users\jakub\NaMi\projects\Nanopositioner\electronics\amplifier\simulation\library\OPAx197.LIB
+C:\users\crossover\AppData\Local\LTspice\lib\sub\UniversalOpAmp1.lib
+

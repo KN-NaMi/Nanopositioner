@@ -3,3 +3,5 @@
 # KiCad
 *-backups/
 *.lck
+*-manufacturing/
+*.zip
